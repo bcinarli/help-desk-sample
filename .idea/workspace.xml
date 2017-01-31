@@ -1,142 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55ac40ea-140d-4bb1-a7bb-a8fdd8046152" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/help-desk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/help-desk.lib.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.stylelintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.stylelintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/scripts/help-desk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/scripts/help-desk.lib.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/.stylelintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/.stylelintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/app.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/app/live-chat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/app/live-chat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/app/live-chat.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/source/scripts/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/source/scripts/modules/agent-screen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/source/scripts/modules/agent-screen/ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/source/scripts/modules/chat/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/source/scripts/modules/client-screen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/source/scripts/modules/client-screen/ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/source/scripts/modules/livechat/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/source/scripts/modules/livechat/resources.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/source/styles/styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live-chat/webpack.production.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/fonts/arimo-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/fonts/arimo-bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/fonts/arimo-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/fonts/arimo-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/components/logo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/containers/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/containers/backoffice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/containers/root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/modules/live-chat/backoffice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/modules/live-chat/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/modules/page/error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/modules/page/fetch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/modules/page/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/modules/section/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/modules/topics/fetch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/modules/topics/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/actions/ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/common/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/common/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/constants/actions/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/constants/actions/ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/constants/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/reducers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/reducers/ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/store/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/store/store-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/system/store/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/views/backoffice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/views/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/views/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/views/layout/aside.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/views/layout/breadcrumb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/views/layout/footer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/views/layout/header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/views/not-found.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/scripts/views/page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/_gui.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/auxiliary/_auxiliary.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/components/_backoffice.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/components/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/components/_components.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/components/_logo.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/components/_navigation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/components/_section.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/components/_topics.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/_elements.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/_headings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/_icons-extend.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/_links.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/_lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/_texts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/forms/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/forms/_fields.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/forms/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/forms/_inputs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/elements/forms/_labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/externals/_externals.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/global/_fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/global/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/layout/_content.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/layout/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/layout/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/layout/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/layout/_page.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/layout/_sidebar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/gui/particules/_particules.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/settings/_animations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/settings/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/settings/_fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/settings/_namespace.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/settings/_settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/settings/_sizes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/settings/_supports.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/styles/styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/templates/static/index.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.production.config.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/fonts/arimo-bold.ttf" afterPath="$PROJECT_DIR$/assets/fonts/arimo-bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/fonts/arimo-regular.ttf" afterPath="$PROJECT_DIR$/assets/fonts/arimo-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/favicon.png" afterPath="$PROJECT_DIR$/assets/images/favicon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/styles/help-desk.css" afterPath="$PROJECT_DIR$/assets/styles/help-desk.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/adiconcierge-bulk-orders.json" afterPath="$PROJECT_DIR$/rest-data/adiconcierge-bulk-orders.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/contact-us.json" afterPath="$PROJECT_DIR$/rest-data/contact-us.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/gift-cards.json" afterPath="$PROJECT_DIR$/rest-data/gift-cards.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/home.json" afterPath="$PROJECT_DIR$/rest-data/home.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/mi-adidas-customized.json" afterPath="$PROJECT_DIR$/rest-data/mi-adidas-customized.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/personalized-gear.json" afterPath="$PROJECT_DIR$/rest-data/personalized-gear.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/returns-exchanges.json" afterPath="$PROJECT_DIR$/rest-data/returns-exchanges.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/shopping-our-site.json" afterPath="$PROJECT_DIR$/rest-data/shopping-our-site.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/topics.json" afterPath="$PROJECT_DIR$/rest-data/topics.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/tracking-shipping.json" afterPath="$PROJECT_DIR$/rest-data/tracking-shipping.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/rest-data/your-account.json" afterPath="$PROJECT_DIR$/rest-data/your-account.json" />
-    </list>
+    <list default="true" id="55ac40ea-140d-4bb1-a7bb-a8fdd8046152" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -317,12 +182,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485890646506</updated>
-      <workItem from="1485890649124" duration="2000000" />
+      <workItem from="1485890649124" duration="2042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2000000" />
+    <option name="totallyTimeSpent" value="2042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="872" extended-state="6" />
