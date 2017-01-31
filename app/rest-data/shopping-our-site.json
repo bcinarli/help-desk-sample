@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Shopping Our Site",
+    "sections": [
+      {
+        "title": "Payment Options",
+        "content": "<p>We accept the following payment options:</p><ul><li>Visa, MasterCard, American Express, Discover</li><li>credit cards issued by banks located in these countries</li><li>PayPal</li><li>Apple Pay</li><li>adidas Gift Cards</li></ul><p>A maximum of one credit card or pre-paid credit card may be used on one order. A maximum of five gift cards may be redeemed on one order.</p><p>For your security, your billing name and address must be entered exactly as they appear on your credit card statement. An order that does not match these criteria is subject to cancellation.</p><p>Apple Pay Users must use the latest version browser version of Safari Sierra for desktop, or Safari iOS 10 for mobile devices. If you do not have an Apple Pay account, you will be prompted during the checkout process to create a new Apple Pay account.</p>"
+      },
+      {
+        "title": "Pre-paid Cards",
+        "content": "<p>In order to give the best service possible, we recommend using a credit card with a credit line, your paypal account, or a debit card that is linked to a financial institution. While adidas.com is currently able to accept pre-paid cards, we recommend checking the terms of use for your card before committing to a purchase. Refunds on prepaid cards and removal of card authorizations can take up to 30 days to process. In addition, some cards are not reloadable, which will prevent us from being able to credit you if a return takes place. If you decide to utilize a pre-paid card to make a purchase, please retain the card until you receive your purchase. adidas.com may require proof of the card terms of use if we are unable to credit you. If we are unable to process a credit, and are able to verify that this is a non-reloadable card, we will issue an adidas.com digital gift card, usable on adidas.com and in adidas retail locations.</p>"
+      },
+      {
+        "title": "Promotional Codes",
+        "content": "<p>We occasionally offer exclusive promotional codes to customers who sign up for an account. These premium offers provide limited time discounts on adidas merchandise.</p><p>To apply a code that you have received, proceed through checkout. Once you’re on the payment page, enter the code exactly as it appears in the \"Using a Promo Code\" field. Codes are case sensitive. Click apply to activate that code. If your discount qualifies, it will be displayed in your payment summary. If the product is excluded from the promotion or the code is expired, the code will not apply. Only one promo code per order will be applied.</p>"
+      },
+      {
+        "title": "Cancel or Change Your Order",
+        "content": "<p>We are unable to make changes or cancel your order once it has been placed. However, you may return your product using our free returns option within 30 days of receipt.</p><p>We begin constructing your personalized or custom product as soon as you place your order. We are unable to make any changes or cancel your custom order once it is placed.</p><p>Occasionally, orders are cancelled by our system if product is unavailable or if we are unable to verify your payment information, ship to the address provided or detect that this is a duplicate order. We will promptly email you to provide notice of cancellation.</p>"
+      },
+      {
+        "title": "Pre-Order Products",
+        "content": "<p>Pre-Order products are items that are not yet in stock, but available for advanced purchase on our site. Products are shipped directly to you once available. You will not be charged for your order until it has shipped and you will be notified via email with tracking information.</p>"
+      }
+    ]
+  }
+]

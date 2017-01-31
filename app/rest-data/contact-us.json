@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Contact Us",
+    "sections": [
+      {
+        "title": "Online Customer Service",
+        "content": "<p>If you’d like to place an order over the phone or have questions regarding your adidas.com order 8AM ET – 11PM ET, 7 days a week <br />800-982-9337</p>"
+      },
+      {
+        "title": "Corporate Consumer Relations",
+        "content": "<p>If you need to contact our corporate office or would like to set up a product quality claim Monday thru Friday from 7:00 AM to 5:00 PM PST <br />800-448-1796</p>"
+      },
+      {
+        "title": "Adiconcierge Bulk Sales",
+        "content": "<p>If you’re interested in tracking down hard to find products, want to place a Bulk order or buy gift cards for corporate use Monday thru Friday from 9:00 AM to 4:00 PM PST <br />888-923-4327</p>"
+      }
+    ]
+  }
+]

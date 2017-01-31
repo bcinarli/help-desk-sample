@@ -1,0 +1,67 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 
+    ------------------------------------------- **/
+.topic-list {
+    @include app-transition;
+    width: 250px;
+    margin-top: $base-gutter;
+    padding-top: $base-gutter;
+    border-top: 1px dotted $color-dark-gray;
+
+    @media screen and (max-width: 48em) {
+        position: absolute;
+        left: calc(-250px - #{$base-gutter});
+    }
+
+    .is-toggled & {
+        @media screen and (max-width: 48em) {
+            position: relative;
+            left: 0;
+        }
+    }
+
+    &-title {
+        color: $color-dark-gray;
+        @include font-size(16px);
+        text-transform: uppercase;
+        white-space: nowrap;
+
+        @media screen and (max-width: 48em) {
+            position: absolute;
+            top: 10%;
+            left: 80%;
+            margin: 0;
+            padding: 5px 10px;
+            border-radius: 2px 2px 0 0;
+            background-color: $color-dark-gray;
+            color: #fff;
+            @include transform(rotate(90deg));
+        }
+
+        .is-toggled & {
+            @media screen and (max-width: 48em) {
+                position: relative;
+                top: 0;
+                left: 0;
+                padding: 0;
+                background-color: #fff;
+                color: #000;
+                @include transform(rotate(0));
+            }
+        }
+
+        ~ .topic-list-item {
+            padding: 12px 15px;
+        }
+    }
+
+    a {
+        display: block;
+
+        &.is-current {
+            color: #025f8e;
+        }
+    }
+}

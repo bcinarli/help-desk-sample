@@ -1,0 +1,7 @@
+/*! live-chat 
+ *  Simple chat server and live-chat plugin for web pages 
+ *  @author Bilal Cinarli <bcinarli@gmail.com> (http://bcinarli.com) 
+ *  @version 0.1.0 
+ *  @build Mon Jan 30 2017 22:59:04 GMT+0300 (+03) 
+ */
+.live-chat-wrapper{position:fixed;right:20px;bottom:0;height:28px;border-radius:5px 5px 0 0;background-color:#fff;font:16px helvetica, arial, sans-serif;overflow:hidden}.live-chat-wrapper.live-chat-toggled{width:250px;height:auto;box-shadow:0 0 3px 2px rgba(0,0,0,0.1);overflow:auto}.live-chat-toggle{margin:0;padding:5px;border-radius:5px 5px 0 0;background-color:#000;color:#fff;font-size:1em;text-transform:none;cursor:pointer}.live-chat-messages{height:250px}.live-chat-message{position:relative;border-top:1px solid #ccc}.live-chat-message-input{display:inline-block;width:calc(100% - 45px)}.live-chat-message-input-item.live-chat-message-input-item{width:100%;border:0;font-size:.8em}.live-chat-message-send{position:absolute;top:2px;right:5px;width:40px;padding:5px;border-radius:2px;background-color:#000;color:#fff;font-size:.8em}.live-chat-message-send:hover{background-color:#000;color:#fff}

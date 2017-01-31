@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Contact Us",
+    "slug": "/topic/contact-us"
+  },
+  {
+    "name": "Shopping Our Site",
+    "slug": "/topic/shopping-our-site"
+  },
+  {
+    "name": "Tracking & Shipping",
+    "slug": "/topic/tracking-shipping"
+  },
+  {
+    "name": "Returns & Exchanges",
+    "slug": "/topic/returns-exchanges"
+  },
+  {
+    "name": "Your Account",
+    "slug": "/topic/your-account"
+  },
+  {
+    "name": "Gift Cards",
+    "slug": "/topic/gift-cards"
+  },
+  {
+    "name": "mi adidas Customized",
+    "slug": "/topic/mi-adidas-customized"
+  },
+  {
+    "name": "Personalized Gear",
+    "slug": "/topic/personalized-gear"
+  },
+  {
+    "name": "adiconcierge & Bulk Orders",
+    "slug": "/topic/adiconcierge-bulk-orders"
+  }
+]

@@ -1,0 +1,14 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 
+    ------------------------------------------- **/
+.page-section {
+    margin-bottom: $base-gutter;
+    padding-top: $base-gutter/2;
+    border-top: 1px dotted $color-dark-gray;
+
+    &-title {
+        @include font-size(18px);
+    }
+}

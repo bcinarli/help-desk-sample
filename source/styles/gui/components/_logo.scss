@@ -1,0 +1,14 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 
+    ------------------------------------------- **/
+.page-logo {
+    @include center-vertical;
+    left: $base-gutter;
+    @include dims(59px, 40px);
+
+    svg {
+        fill: #fff;
+    }
+}

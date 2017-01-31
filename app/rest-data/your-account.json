@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Your Account",
+    "sections": [
+      {
+        "title": "Account Benefits",
+        "content": "<ul><li>Receive new product information and exclusive promotions</li><li>View order history and tracking information</li><li>Save billing and shipping addresses for quick checkout</li><li>Save mi adidas custom designs</li><li>Create a Wish List for your favorite products</li></ul>"
+      },
+      {
+        "title": "Manage Your Account",
+        "content": "Log in to your account to easily manage your preferences including:<br /><ul><li>Change the type of emails you receive</li><li>Change your account password</li><li>Update your e-mail address</li><li>Change a Billing Address or a Shipping Address saved in your address book</li><li>Purchase something on your Wish List</li></ul>"
+      },
+      {
+        "title": "Wish List",
+        "content": "<p>When you open an account, you can also save products while shopping to your own personal Wish List to view and purchase later. To purchase items from your Wish List, sign into your account and select Wish List.  Click on Move to Cart and your product will be placed in your Shopping Cart.</p>"
+      },
+      {
+        "title": "Forgot Your Password?",
+        "content": "<p>Go to our sign in page here and click on the Forgot Password? option.</p>"
+      }
+    ]
+  }
+]

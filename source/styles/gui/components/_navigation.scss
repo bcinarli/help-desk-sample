@@ -1,0 +1,17 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 
+    ------------------------------------------- **/
+.navigation {
+    &-item {
+        color: #000;
+        @include font-size(13px);
+        text-decoration: none;
+
+        &:hover {
+            color: #025f8e;
+            text-decoration: underline;
+        }
+    }
+}
