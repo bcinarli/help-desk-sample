@@ -53,6 +53,8 @@ For starting a chat with agent (assuming the agent is already navigated to [back
 
 When a client started a new chat, in the backoffice, a new chat tab will appear. The agent cannot *start* a new chat session.
 
+Also you can check the live demo at [http://help-desk-sample.bcinarli.com]() as a client and [http://help-desk-sample.bcinarli.com/backoffice]() as a backoffice agent 
+
 ---
 
 ## Frameworks Used
@@ -65,3 +67,5 @@ When a client started a new chat, in the backoffice, a new chat tab will appear.
 For _SPA_'s page data, static Rest API is used in [app/rest-data](). In real life applications, the system can easily change to support a real Rest API server. 
 
 For the working style of backoffice, the _Live Chat_ application assumes, single agent is present and can talk with multiple clients simultaneously. However, a client only talk with this agent. Also chat sessions always start by client.
+
+As a CI/CD sample, _Live Chat_'s the separate repository at [https://github.com/bcinarli/backoffice-chat]() integrated to Heroku, and automatically deploys the application when changes pushed the master branch and successfully passed the tests.

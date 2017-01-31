@@ -15,7 +15,7 @@ export const addChatScripts = () => {
 
         i       = o.createElement(s);
         i.async = 1;
-        i.src   = "//localhost:8090/live-chat.js";
+        i.src   = "//localhost:8081/live-chat.js";
         i.id    = 'liveChat-script';
         e       = o.getElementsByTagName(s)[0];
         e.parentNode.insertBefore(i, e)
