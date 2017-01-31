@@ -3077,6 +3077,11 @@ dl dt {
   padding: 0 20px;
 }
 
+.page-404 .page-content {
+  padding-top: 200px;
+  text-align: center;
+}
+
 .page-main {
   padding-left: 20px;
 }
@@ -3089,6 +3094,11 @@ dl dt {
 
 .page-main-content {
   font-size: 0.875rem;
+}
+
+.page-404 .page-main,
+.page-backoffice .page-main {
+  width: 100%;
 }
 
 /* @author Bilal Cinarli */
@@ -3416,6 +3426,22 @@ h6 {
 
 .page-section-title {
   font-size: 1.125rem;
+}
+
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+ 
+    ------------------------------------------- **/
+
+.backoffice-info {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.live-chat-backoffice {
+  margin-top: 100px;
+  z-index: 99;
 }
 
 /**

@@ -17,14 +17,14 @@ Since _SPA_ and the _Live Chat_ are separate modules, you have to build them sep
 ```
 $ cd live-chat
 $ npm install
-$ npm build:prod
+$ npm run build:prod
 ```
 
 ### SPA
 ```
 $ cd .. // if you are in live-chat directory
 $ npm install
-$ npm build:prod
+$ npm run build:prod
 ```
 
 ---
