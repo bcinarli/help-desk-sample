@@ -17,20 +17,32 @@ Since _SPA_ and the _Live Chat_ are separate modules, you have to build them sep
 ```
 $ cd live-chat
 $ npm install
-$ npm run server
+$ npm build:prod
 ```
 
 ### SPA
 ```
 $ cd .. // if you are in live-chat directory
 $ npm install
-$ npm run start
+$ npm build:prod
 ```
 
 ---
 
 ## How To Run
-Then navigate to [http://localhost:8080]() for the _SPA_, navigatio to [http://localhost:8080/backoffice]() for _Live Chat_'s agent view. 
+Use two terminal screens.
+
+In first terminal, in the `live-chat` folder
+```
+$ npm run server
+```
+
+In the second terminal, in the project root
+```
+$ npm run start
+```
+
+Then in your browser navigate to [http://localhost:8080]() for the _SPA_, navigate to [http://localhost:8080/backoffice]() for _Live Chat_'s agent view. 
 
 After page load, the _Live Chat_'s chat screen will appear at the right bottom of the page. 
 
