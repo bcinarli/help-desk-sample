@@ -1,3 +1,0 @@
-/**
- * @author Bilal Cinarli
- */
