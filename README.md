@@ -63,3 +63,5 @@ When a client started a new chat, in the backoffice, a new chat tab will appear.
 
 ## Notes
 For _SPA_'s page data, static Rest API is used in [app/rest-data](). In real life applications, the system can easily change to support a real Rest API server. 
+
+For the working style of backoffice, the _Live Chat_ application assumes, single agent is present and can talk with multiple clients simultaneously. However, a client only talk with this agent. Also chat sessions always start by client.
