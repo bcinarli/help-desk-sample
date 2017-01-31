@@ -2,6 +2,8 @@
  * @author Bilal Cinarli
  */
 
+'use strict';
+
 // Setup basic express server
 const express = require('express');
 const app     = express();
