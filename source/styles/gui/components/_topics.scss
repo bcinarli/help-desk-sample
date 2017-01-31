@@ -9,6 +9,7 @@
     margin-top: $base-gutter;
     padding-top: $base-gutter;
     border-top: 1px dotted $color-dark-gray;
+    background-color: #fff;
 
     @media screen and (max-width: 48em) {
         position: absolute;
