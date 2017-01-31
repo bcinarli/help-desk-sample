@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* @author Bilal Cinarli */
 
 /** -------------------------------------------
@@ -8,6 +10,7 @@
   position: fixed;
   right: 20px;
   bottom: 0;
+  width: 150px;
   height: 28px;
   border-radius: 5px 5px 0 0;
   background-color: #fff;
@@ -31,6 +34,14 @@
   font-size: 1em;
   text-transform: none;
   cursor: pointer;
+}
+
+.live-chat-toggled .live-chat-toggle::after {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  line-height: 28px;
+  content: "\2014";
 }
 
 .live-chat-messages {

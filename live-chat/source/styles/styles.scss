@@ -8,6 +8,7 @@
         position: fixed;
         right: 20px;
         bottom: 0;
+        width: 150px;
         height: 28px;
         border-radius: 5px 5px 0 0;
         background-color: #fff;
@@ -31,6 +32,16 @@
         font-size: 1em;
         text-transform: none;
         cursor: pointer;
+
+        .live-chat-toggled & {
+            &::after {
+                position: absolute;
+                top: 0;
+                right: 5px;
+                line-height: 28px;
+                content: "—";
+            }
+        }
     }
 
     &-messages {

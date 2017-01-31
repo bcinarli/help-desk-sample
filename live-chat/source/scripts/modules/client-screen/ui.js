@@ -3,7 +3,7 @@
  */
 
 const template = '<div class="live-chat-header">' +
-                 '  <h2 class="live-chat-toggle" id="live-chat-toggle">Need Help?</h2>' +
+                 '  <h2 class="live-chat-toggle" id="live-chat-toggle">Need Help? <span class="live-chat-unread"></span></h2>' +
                  '</div>' +
                  '<div class="live-chat-session">' +
                  '  <div class="live-chat-messages">' +

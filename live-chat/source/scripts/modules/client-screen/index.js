@@ -28,6 +28,7 @@ class ClientScreen {
     getScreenElement() {
         this.wrapper  = document.getElementById('live-chat');
         this.toggle   = this.wrapper.querySelector('#live-chat-toggle');
+        this.unread   = this.wrapper.querySelector('.live-chat-unread');
         this.messages = this.wrapper.querySelector('#live-chat-messages-list');
         this.form     = this.wrapper.querySelector('#live-chat-message-form');
         this.input    = this.form.querySelector('#live-chat-message-input');
@@ -50,6 +51,8 @@ class ClientScreen {
             ? this.wrapper.classList.remove('live-chat-toggled')
             : this.wrapper.classList.add('live-chat-toggled');
 
+        this.unread.innerHTML = '';
+        this.unread.classList.remove('live-chat-has-unread');
     }
 
     sendMessage() {
@@ -59,6 +62,11 @@ class ClientScreen {
 
     addMessage(data, mine = false) {
         this.chat.addMessage(data, mine, this.screenID);
+
+        if(!this.wrapper.classList.contains('live-chat-toggled')) {
+            this.unread.innerHTML = (this.unread.innerHTML * 1) + 1;
+            this.unread.classList.add('live-chat-has-unread');
+        }
     }
 }
 
