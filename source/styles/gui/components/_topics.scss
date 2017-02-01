@@ -41,18 +41,6 @@
             @include transform(rotate(90deg));
         }
 
-        .is-toggled & {
-            @media screen and (max-width: 48em) {
-                position: relative;
-                top: 0;
-                left: 0;
-                padding: 0;
-                background-color: #fff;
-                color: #000;
-                @include transform(rotate(0));
-            }
-        }
-
         ~ .topic-list-item {
             padding: 12px 15px;
         }

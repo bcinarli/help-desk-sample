@@ -2987,14 +2987,14 @@ dl dt {
 
 @font-face {
   font-family: "Arimo";
-  src: url(data:application/font-woff;base64,) format("woff"), url(../fonts/arimo-regular.ttf) format("truetype");
+  src: url(../fonts/arimo-regular.woff) format("woff"), url(../fonts/arimo-regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Arimo";
-  src: url(data:application/font-woff;base64,) format("woff"), url(../fonts/arimo-bold.ttf) format("truetype");
+  src: url(../fonts/arimo-bold.woff) format("woff"), url(../fonts/arimo-bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -3027,6 +3027,7 @@ dl dt {
   position: relative;
   width: 100%;
   min-height: 100%;
+  overflow: hidden;
 }
 
 .container {
@@ -3099,6 +3100,7 @@ dl dt {
 .page-404 .page-main,
 .page-backoffice .page-main {
   width: 100%;
+  padding: 0 20px;
 }
 
 /* @author Bilal Cinarli */
@@ -3384,20 +3386,6 @@ h6 {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-  }
-}
-
-@media screen and (max-width: 48em) {
-  .is-toggled .topic-list-title {
-    position: relative;
-    top: 0;
-    left: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #000;
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    transform: rotate(0);
   }
 }
 

@@ -46,14 +46,15 @@ Then in your browser navigate to [http://localhost:8080]() for the _SPA_, naviga
 
 After page load, the _Live Chat_'s chat screen will appear at the right bottom of the page. 
 
+Also you can check the live demo at [http://help-desk-sample.bcinarli.com](http://help-desk-sample.bcinarli.com) as a client and [http://help-desk-sample.bcinarli.com/backoffice](http://help-desk-sample.bcinarli.com/backoffice) as a backoffice agent 
+
+
 ---
 
 ## How To Use
 For starting a chat with agent (assuming the agent is already navigated to [backoffice page](http://localhost:8080/backoffice)), just click to "need help?" and start typing.
 
 When a client started a new chat, in the backoffice, a new chat tab will appear. The agent cannot *start* a new chat session.
-
-Also you can check the live demo at [http://help-desk-sample.bcinarli.com]() as a client and [http://help-desk-sample.bcinarli.com/backoffice]() as a backoffice agent 
 
 ---
 
