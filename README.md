@@ -24,6 +24,7 @@ $ npm run build:prod
 ```
 $ cd .. // if you are in live-chat directory
 $ npm install
+$ bower install
 $ npm run build:prod
 ```
 
