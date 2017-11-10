@@ -43,7 +43,7 @@ In the second terminal, in the project root
 $ npm run start
 ```
 
-Then in your browser navigate to [http://localhost:8080]() for the _SPA_, navigate to [http://localhost:8080/backoffice]() for _Live Chat_'s agent view. 
+Then in your browser navigate to [http://localhost:8080](http://localhost:8080) for the _SPA_, navigate to [http://localhost:8080/backoffice](http://localhost:8080/backoffice) for _Live Chat_'s agent view. 
 
 After page load, the _Live Chat_'s chat screen will appear at the right bottom of the page. 
 
@@ -66,8 +66,8 @@ When a client started a new chat, in the backoffice, a new chat tab will appear.
 - [Webpack](https://webpack.js.org) is used for build tasks
 
 ## Notes
-For _SPA_'s page data, static Rest API is used in [app/rest-data](). In real life applications, the system can easily change to support a real Rest API server. 
+For _SPA_'s page data, static Rest API is used in [app/rest-data](/app/rest-data). In real life applications, the system can easily change to support a real Rest API server. 
 
 For the working style of backoffice, the _Live Chat_ application assumes, single agent is present and can talk with multiple clients simultaneously. However, a client only talk with this agent. Also chat sessions always start by client.
 
-As a CI/CD sample, _Live Chat_'s the separate repository at [https://github.com/bcinarli/backoffice-chat]() integrated to Heroku, and automatically deploys the application when changes pushed the master branch and successfully passed the tests.
+As a CI/CD sample, _Live Chat_'s the separate repository at [https://github.com/bcinarli/backoffice-chat](https://github.com/bcinarli/backoffice-chat) integrated to Heroku, and automatically deploys the application when changes pushed the master branch and successfully passed the tests.
